@@ -1,0 +1,33 @@
+{
+  "name": "timestamp-range",
+  "version": "0.0.2",
+  "description": "An object representing 2 timestamps - i.e. a 'gap' in time",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/timestamp-range.git"
+  },
+  "keywords": [
+    "date",
+    "timestamp",
+    "range",
+    "gap",
+    "resolution"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/timestamp-range/issues"
+  },
+  "homepage": "https://github.com/binocarlos/timestamp-range",
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
+  },
+  "dependencies": {
+    "time-resolutions": "0.0.1"
+  }
+}
