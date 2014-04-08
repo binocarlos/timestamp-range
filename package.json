@@ -1,6 +1,6 @@
 {
   "name": "timestamp-range",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An object representing 2 timestamps - i.e. a 'gap' in time",
   "main": "index.js",
   "scripts": {
