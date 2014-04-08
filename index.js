@@ -29,6 +29,7 @@ module.exports = function timestamp_range(start, end){
 	return {
 		ms:gap,
 		resolution:resolution,
+		unit:unit,
 		length:gap / unit
 	}
 }
