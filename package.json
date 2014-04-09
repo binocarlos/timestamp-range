@@ -28,6 +28,6 @@
     "should": "~1.2.2"
   },
   "dependencies": {
-    "time-resolutions": "0.0.1"
+    "time-resolutions": "~0.1.1"
   }
 }
