@@ -30,7 +30,7 @@ describe('timestamp-range', function(){
     var range = timestamprange(start);
 
     range.resolution.should.equal('millisecond')
-    range.length.should.equal(150)
+    Math.floor(range.length/10).should.equal(15)
     
   })
 
@@ -44,7 +44,7 @@ describe('timestamp-range', function(){
 	    var range = timestamprange(start, end);
 
 	    range.resolution.should.equal('millisecond')
-	    range.length.should.equal(150)
+	    Math.floor(range.length/10).should.equal(15)
 	  })
 
 	  it('second', function() {
