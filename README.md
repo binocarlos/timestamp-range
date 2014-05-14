@@ -1,7 +1,7 @@
 timestamp-range
 ===============
 
-![Build status](https://api.travis-ci.org/binocarlos/timestamp-range.png)
+[![Travis](http://img.shields.io/travis/binocarlos/timestamp-range.svg?style=flat)](https://travis-ci.org/binocarlos/timestamp-range)
 
 An object representing 2 timestamps - i.e. a 'gap' in time
 
